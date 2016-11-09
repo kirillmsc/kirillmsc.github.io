@@ -161,7 +161,7 @@ nav .child-menu {
   width: 100%;
   top: 65px;
   left: 0;
-  z-index: 5000;
+  z-index: 50000;
   -moz-transition-property: max-height;
   -o-transition-property: max-height;
   -webkit-transition-property: max-height;
