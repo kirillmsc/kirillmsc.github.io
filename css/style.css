@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 nav {
   display: table;
   position: relative;
@@ -161,7 +165,7 @@ nav .child-menu {
   width: 100%;
   top: 65px;
   left: 0;
-  z-index: 50000;
+  z-index: 5000;
   -moz-transition-property: max-height;
   -o-transition-property: max-height;
   -webkit-transition-property: max-height;
@@ -339,12 +343,6 @@ li {
   line-height: 1.4 ;
 }
 
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
-
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -384,9 +382,6 @@ header h2 {
   margin: 0;
 }
 
-/* Main Content
-*/
-
 #main_content {
   width: 100%;
   -webkit-font-smoothing: antialiased;
@@ -404,6 +399,7 @@ h1, h2, h3, h4, h5, h6 {
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
 }
+
 
 #main_content h1 {
   font-size: 30px;
@@ -532,16 +528,10 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
-/* Links
-   a, a:hover, a:visited
-*/
-
 a {
   color: #63c0f5;
-  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-shadow: 0 0 0px rgba(104, 182, 255, 0.5);
 }
-
-/* Clearfix */
 
 .cf:before, .cf:after {
   content:"";
